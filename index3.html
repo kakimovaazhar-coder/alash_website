@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alash Leaders</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <nav class="navbar">
+        <div class="nav-logo">Alash arystary</div>
+        <ul class="nav-links">
+            <li><a href="/index1.html">Home</a></li>
+            <li><a href="/index2.html">Alash Orda</a></li>
+            <li><a href="/index4.html">Quiz</a></li>
+        </ul>
+    </nav>
+
+<header class="hero">
+    <h1>Alash Movement Leaders</h1>
+    <p>Discover the stories of three visionaries who shaped the modern Kazakh identity</p>
+</header>
+
+  <main class="leader-gallery">
+    <section class="leader-card" onclick="showLeader('baitursynov')">
+      <img src="/ahmet.jpg" alt="Akhmet Baitursynov" id="ahm">
+      <h2>Akhmet Baitursynov</h2>
+      <p>Father of modern Kazakh linguistics and cultural reformer</p>
+    </section>
+    <section class="leader-card" onclick="showLeader('dulatov')">
+      <img src="/mirzh.jpg" alt="Mirzhakyp Dulatov" id="dul">
+      <h2>Mirzhakyp Dulatov</h2>
+      <p>Poet, novelist, and fierce advocate of Kazakh independence</p>
+    </section>
+    <section class="leader-card" onclick="showLeader('bukeikhanov')">
+      <img src="/alih.jpg" alt="Alikhan Bukeikhanov" id="alih">
+      <h2>Alikhan Bukeikhan</h2>
+      <p>Founder of Alash Orda and symbol of national awakening</p>
+    </section>
+  </main>
+
+  <section id="leader-info" class="info-panel hidden">
+    <div class="info-content">
+      <h2 id="info-title"></h2>
+      <p id="info-text"></p>
+      <button onclick="closeInfo()">Close</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+        <p>Contacts: alash.history@mail.kz</p>
+        <p>Phone number: +7 (777) 777-77-77</p>
+        <p>&copy; 2025 Alash Project.</p>
+    </footer>
+
+  <script src="index3.js"></script>
+</body>
+</html>

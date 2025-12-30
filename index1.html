@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alash Project</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="nav-logo">Alash</div>
+    <ul class="nav-links">
+      <li><a href="/index1.html">Home</a></li>
+      <li><a href="/index2.html">Alash Orda</a></li>
+      <li><a href="/index3.html">Alash arystary</a></li>
+      <li><a href="/index4.html">Quiz</a></li>
+      <li><a href="#leaders">Leaders</a></li>
+    </ul>
+  </nav>
+
+  <header>
+  <div class="header-text">
+    <h1>The Alash Movement</h1>
+    <p>The Alash Party emerged in the early 20th century during the national liberation struggle of the Kazakh people. Its main goal was to create an independent Kazakh state. The collapse of the Russian Empire, caused by the First World War and the February and October Revolutions of 1917, created a political vacuum that encouraged the Kazakh national intelligentsia to defend the rights of the indigenous population.</p>
+<a href="#footer"><button>Contact</button></a>  
+<a href="#map"><button>Map</button></a> 
+</div>
+    <img src="/al.jpg" class="im" />
+</header>
+
+
+  <section class="leaders" id="leaders">
+    <h2>Prominent Figures</h2>
+    <div class="leader-cards">
+      <div class="card" onclick="showInfo('leader 1')">
+        <a href="/index3.html#ahm"><img src="/ahmet.jpg" alt="Ahmet Baitursynov"></a>
+        <h3>Ahmet Baitursynov</h3>
+        <p>Linguist and leader of Kazakh national revival</p>
+      </div>
+      <div class="card" onclick="showInfo('leader 2')">
+        <a href="/index3.html#dul"><img src="/mirzh.jpg" alt="Mirzhakyp Dulatov"></a>
+        <h3>Mirzhakyp Dulatov</h3>
+        <p>Poet, writer and independence activist</p>
+      </div>
+      <div class="card" onclick="showInfo('leader 3')">
+        <a href="/index3.html#alih"><img src="/alih.jpg" alt="Alikhan Bokeikhan"></a>
+        <h3>Alikhan Bokeikhan</h3>
+        <p>Politician and first leader of Alash Orda</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="map" id="map">
+  <h2>Alash Orda Historical Regions</h2>
+  <p>The roots of the movement began during the First Russian Revolution of 1905, when Kazakh representatives gathered in Uralsk to discuss forming a national party. These early efforts laid the foundation for the official creation of the Alash Party in 1917 at the First All-Kazakh Congress in Orenburg. The party arose in response to the need for national self-determination, protection of land rights, and the desire for political, cultural, and educational reforms for the Kazakh people.</p>
+  <div class="map-container" >
+    <img id="zoom-img" src="/mp.jpg">
+  </div>
+</section>
+
+  <footer class="footer" id="footer">
+        <p>Contacts: alash.history@mail.kz</p>
+        <p>Phone number: +7 (777) 777-77-77</p>
+        <p>&copy; 2025 Alash Project.</p>
+    </footer>
+
+  <script src="index1.js"></script>
+</body>
+</html>
